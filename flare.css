@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(img/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling {
+  background:transparent url(img/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.mail {
+  background:url(img/mail.png) no-repeat;
+  cursor:pointer;
+  bottom:13px;
+  left:16px;
+  width:20px;
+  height:15px;
+  position:absolute;
+  z-index:1000;
+}
+
+.mail:hover {
+  background-position:0 -15px;
+}
+
+.git {
+  background:url(img/git.png) no-repeat;
+  cursor:pointer;
+  bottom:12px;
+  right:16px;
+  width:43px;
+  height:20px;
+  position:absolute;
+  z-index:1000;
+}
+
+.git:hover {
+  background-position:0 -20px;
+}
