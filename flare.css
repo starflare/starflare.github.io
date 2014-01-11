@@ -48,6 +48,99 @@
   animation:move-twink-back 200s linear infinite;
 }
 
+.container {
+  height:452px;
+  left:50%;
+  margin-left:-310px;
+  margin-top:-224px;
+  position:absolute;
+  text-align:center;
+  top:50%;
+  width:620px;
+  z-index:300;
+  visibility:hidden;
+}
+
+.qr {
+  width:424px;
+  height:424px;
+}
+
+.menu {
+  position:absolute;
+  margin-left:-236px;
+  bottom:56px;
+  left:50%;
+}
+
+.about {
+  background:url(img/about.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:116px;
+  height:28px;
+}
+
+.about:hover {
+  background-position:0 -28px;
+}
+
+.music {
+  background:url(img/music.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:178px;
+  width:116px;
+  height:28px;
+}
+
+.music:hover {
+  background-position:0 -28px;
+}
+
+.hacks {
+  background:url(img/hacks.png) no-repeat;
+  cursor:pointer;
+  position:absolute;
+  top:0px;
+  left:356px;
+  width:116px;
+  height:28px;
+}
+
+.hacks:hover {
+  background-position:0 -28px;
+}
+
+.lsep {
+  background:url(img/seperator.png) no-repeat;
+  position:absolute;
+  top:8px;
+  left:138px;
+  width:20px;
+  height:20px;
+}
+
+.lsep:hover {
+  background-position:0 -20px;
+}
+
+.rsep {
+  background:url(img/seperator.png) no-repeat;
+  position:absolute;
+  top:8px;
+  left:316px;
+  width:20px;
+  height:20px;
+}
+
+.rsep:hover {
+  background-position:0 -20px;
+}
+
 .mail {
   background:url(img/mail.png) no-repeat;
   cursor:pointer;
